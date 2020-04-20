@@ -25,9 +25,9 @@
 // Scales
 
 export const gMajor = {
-  name: "G scale",
+  name: "G Major Scale - G Ionian - 1st position",
   noteColor: "rgba(255,0,0,1)",
-  fretColor: "rgba(255,0,0,.2)",
+  fretColor: "rgba(0,0,255,.2)",
   string: {
     6: {
       fret: {
@@ -169,7 +169,7 @@ export const gMajor = {
 };
 
 export const amMajor = {
-  name: "A scale",
+  name: "G Major Scale - A Dorian - 2nd position",
   noteColor: "rgba(255,0,0,1)",
   fretColor: "rgba(0,0,255,.2)",
   string: {
@@ -306,6 +306,452 @@ export const amMajor = {
           right: true,
         },
         8: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+  },
+};
+
+export const bMajor = {
+  name: "G Major Scale - B Phrygian - 3rd position",
+  noteColor: "rgba(255,0,0,1)",
+  fretColor: "rgba(0,0,255,.2)",
+  string: {
+    6: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    5: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    4: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    3: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    2: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    1: {
+      fret: {
+        7: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        8: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        9: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+  },
+};
+
+export const dMajor = {
+  name: "G Major Scale - D Mixolyd - 4th position",
+  noteColor: "rgba(255,0,0,1)",
+  fretColor: "rgba(0,0,255,.2)",
+  string: {
+    6: {
+      fret: {
+        10: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        11: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    5: {
+      fret: {
+        9: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        11: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    4: {
+      fret: {
+        9: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        10: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        11: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    3: {
+      fret: {
+        9: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        10: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        11: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    2: {
+      fret: {
+        10: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        11: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        13: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    1: {
+      fret: {
+        10: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        11: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+  },
+};
+
+export const eMajor = {
+  name: "G Major Scale - E Aeolian - 5th position",
+  noteColor: "rgba(255,0,0,1)",
+  fretColor: "rgba(0,0,255,.2)",
+  string: {
+    6: {
+      fret: {
+        12: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        15: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    5: {
+      fret: {
+        12: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        15: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    4: {
+      fret: {
+        12: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    3: {
+      fret: {
+        11: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        12: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    2: {
+      fret: {
+        12: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        13: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        15: {
+          note: true,
+          left: true,
+          right: false,
+        },
+      },
+    },
+    1: {
+      fret: {
+        12: {
+          note: true,
+          left: false,
+          right: true,
+        },
+        13: {
+          note: false,
+          left: true,
+          right: true,
+        },
+        14: {
+          note: true,
+          left: true,
+          right: true,
+        },
+        15: {
           note: true,
           left: true,
           right: false,
