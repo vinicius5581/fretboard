@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fretboard/static/css/main.4774afae.chunk.css",
-    "main.js": "/fretboard/static/js/main.fccb6f87.chunk.js",
-    "main.js.map": "/fretboard/static/js/main.fccb6f87.chunk.js.map",
+    "main.js": "/fretboard/static/js/main.e7e0a2ff.chunk.js",
+    "main.js.map": "/fretboard/static/js/main.e7e0a2ff.chunk.js.map",
     "runtime-main.js": "/fretboard/static/js/runtime-main.d67eb460.js",
     "runtime-main.js.map": "/fretboard/static/js/runtime-main.d67eb460.js.map",
     "static/js/2.4bc99db9.chunk.js": "/fretboard/static/js/2.4bc99db9.chunk.js",
     "static/js/2.4bc99db9.chunk.js.map": "/fretboard/static/js/2.4bc99db9.chunk.js.map",
     "index.html": "/fretboard/index.html",
-    "precache-manifest.346b515a186bf0290f0474561d46a7f3.js": "/fretboard/precache-manifest.346b515a186bf0290f0474561d46a7f3.js",
+    "precache-manifest.f6ed7e9a0c95b3f22484bcc28d78b7b7.js": "/fretboard/precache-manifest.f6ed7e9a0c95b3f22484bcc28d78b7b7.js",
     "service-worker.js": "/fretboard/service-worker.js",
     "static/css/main.4774afae.chunk.css.map": "/fretboard/static/css/main.4774afae.chunk.css.map",
     "static/js/2.4bc99db9.chunk.js.LICENSE.txt": "/fretboard/static/js/2.4bc99db9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d67eb460.js",
     "static/js/2.4bc99db9.chunk.js",
     "static/css/main.4774afae.chunk.css",
-    "static/js/main.fccb6f87.chunk.js"
+    "static/js/main.e7e0a2ff.chunk.js"
   ]
 }
